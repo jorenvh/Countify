@@ -1,0 +1,12 @@
+{
+    "name": "thunder/countify",
+    "description": "count the words in a textarea",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Joren Van Hocht",
+            "email": "vanhochtjoren@gmail.com"
+        }
+    ],
+    "require": {}
+}
