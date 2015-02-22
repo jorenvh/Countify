@@ -2,8 +2,7 @@
 Laravel 5 package to count the words in a textarea.
 
 ## Instalation
-
-1. Require it in your composer.json file
+1.Require it in your composer.json file
 
 ```php
 "thunder/countify": "dev-master"
@@ -13,15 +12,12 @@ Laravel 5 package to count the words in a textarea.
 ```php
 'thunder\Countify\CountifyServiceProvider',
 ``` 
-
 3. Add an alisas to the aliasses array in config > app.php
 
 ```php
 'Countify'  => 'thunder\Countify\Facades\Countify',
 ``` 
-
-4. Do a composer update
-
+4.Do a composer update
 5. Publish the resources through this command 
 
 ```php
@@ -29,7 +25,6 @@ php artisan vendor:publish
 ``` 
 
 ## Usages
-
 1. Include the published resources in your view. Jquery is required.
 
 ```html
