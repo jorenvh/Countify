@@ -1,0 +1,24 @@
+{
+  "name": "thunder/countify",
+  "type": "library",
+  "description": "Counting the words in a textarea",
+  "keywords": ["laravel", "laravel 5", "Countify", "count", "words", "textarea"],
+  "homepage": "http://github.com/jorenvh/Countify",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Joren Van Hocht",
+      "email": "vanhochtjoren@gmail.com",
+      "homepage": "http://github.com/jorenvh/Countify",
+      "role": "Developer"
+    }
+  ],
+  "require": {
+    "php": ">=5.4"
+  },
+  "autoload": {
+    "psr-0": {
+      "Monolog": "src"
+    }
+  }
+}
