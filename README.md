@@ -18,6 +18,13 @@ Add an alisas to the aliasses array in config > app.php
 ```php
 'Countify'  => 'thunder\Countify\Facades\Countify',
 ``` 
+
+PSR4 autoload it
+
+```php
+"thunder\\Countify\\": "vendor/thunder/Countify/src/"
+``` 
+
 Do a composer update
 
 Publish the resources through this command 
