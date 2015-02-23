@@ -12,6 +12,9 @@ var Countify = {
      */
     init: function()
     {
+        // On document ready count the pre-filled words
+        Countify.getWords();
+
         // Listen to the on key up event on the textarea
         Countify.field.on('keyup', Countify.debounce(function() {
             Countify.getWords();
